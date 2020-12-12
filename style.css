@@ -448,3 +448,66 @@ h3 {
     font-weight: bold;
     margin: 5px;
 }
+
+
+/*POPULAIRES*/
+
+#article_pop {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    padding: 45px 40px 0 40px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+#title_pop {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 345px;
+    margin-bottom: 10px;
+}
+
+#folder_pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_pop {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    width: 345px;
+    height: 145px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px rgb(221, 218, 218);
+    border-radius: 25px;
+}
+
+.pocket_img_pop {
+    margin: 4px;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+}
+
+.pocket_img_pop img {
+    object-fit: cover;
+    width: 130px;
+    height: 137px;
+}
+
+.title_img_pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.describ_pop {
+    display: flex;
+    flex-direction: column;
+}
