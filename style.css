@@ -511,3 +511,119 @@ h3 {
     display: flex;
     flex-direction: column;
 }
+
+
+/* ACIVITES */
+
+#section_activ {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+#title_activ {
+    margin-bottom: 20px;
+}
+
+#folder_activ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.underfile_single_activ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 445px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.underfile_activ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 445px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.card_activ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px rgb(221, 218, 218);
+    border-radius: 25px;
+}
+
+.pocket_img_activ {
+    border-radius: 25px 25px 0 0;
+    overflow: hidden;
+}
+
+.activ_11_31 {
+    width: 300px;
+    height: 445px;
+}
+
+.activ_11_31 img {
+    object-fit: cover;
+    width: 300px;
+    height: 390px;
+}
+
+.activ_21 {
+    width: 300px;
+    height: 235px;
+}
+
+.activ_21 img {
+    object-fit: cover;
+    width: 300px;
+    height: 180px;
+}
+
+.activ_22 {
+    width: 300px;
+    height: 165px;
+}
+
+.activ_22 img {
+    object-fit: cover;
+    width: 300px;
+    height: 110px;
+}
+
+.activ_41 {
+    width: 300px;
+    height: 195px;
+}
+
+.activ_41 img {
+    object-fit: cover;
+    width: 300px;
+    height: 140px;
+}
+
+.activ_42 {
+    width: 300px;
+    height: 210px;
+}
+
+.activ_42 img {
+    object-fit: cover;
+    width: 300px;
+    height: 150px;
+}
+
+.legende {
+    margin: 10px 0 20px 20px;
+}
