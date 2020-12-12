@@ -878,3 +878,44 @@ h3 {
 
 
 /************************************************************************/
+
+@media all and (max-width: 360px) {
+    /* HEADER */
+    #anchor_heb {
+        padding: 0 20px 0 38px;
+    }
+    #anchor_activ {
+        padding: 0 53px 0 30px;
+    }
+    /* BANDEAU DE RECHERCHE */
+    #teaser h2 {
+        font-size: 1.2em;
+    }
+    #city input {
+        width: 200px;
+    }
+    #city label {
+        left: 250px;
+    }
+    #city i:nth-of-type(2) {
+        left: 240px;
+    }
+    .card_heb,
+    .underfile_single_activ,
+    .underfile_activ,
+    .activ_11_31,
+    .activ_21,
+    .activ_22,
+    .activ_41,
+    .activ_42,
+    .activ_11_31 img,
+    .activ_21 img,
+    .activ_22 img,
+    .activ_41 img,
+    .activ_42 img {
+        width: 310px;
+    }
+    #title_pop {
+        width: 295px;
+    }
+}
