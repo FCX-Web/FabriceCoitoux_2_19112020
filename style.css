@@ -687,3 +687,45 @@ h3 {
 
 
 /*****************************************************************/
+
+@media all and (max-width: 860px) {
+    /*HBERGEMENTS*/
+    #article_pop {
+        padding: 0;
+        margin-bottom: 40px;
+        border-radius: 0;
+    }
+    #folder_pop {
+        margin-right: 20px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .card_pop {
+        margin-bottom: 15px;
+        width: 335px;
+    }
+    .pocket_img_pop img {
+        width: 125px;
+    }
+    #section_heb {
+        flex-direction: column-reverse;
+        margin-bottom: 60px;
+    }
+    #article_heb {
+        padding: 0;
+        background-color: #ffffff;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .card_heb {
+        width: 335px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    .pocket_img_heb img {
+        width: 327px;
+    }
+}
+
+
+/********************************************************************/
