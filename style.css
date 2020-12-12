@@ -627,3 +627,39 @@ h3 {
 .legende {
     margin: 10px 0 20px 20px;
 }
+
+
+/* FOOTER*/
+
+#footer_fcx {
+    background-color: #f2f2f2;
+}
+
+#bloc_footer {
+    max-width: 1440px;
+    display: flex;
+    padding: 45px 50px 0 50px;
+    margin: 0 auto;
+    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bloc_footer h3 {
+    color: #000000;
+    margin-left: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#bloc_footer div {
+    flex: 30%;
+}
+
+#bloc_footer p {
+    margin-bottom: 20px;
+}
+
+#bloc_footer a {
+    color: #000000;
+    text-decoration: none;
+}
