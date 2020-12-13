@@ -229,6 +229,8 @@ h3 {
 
 #section_heb {
     display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
     margin: 0 50px 65px;
 }
 
@@ -237,13 +239,13 @@ h3 {
     flex-direction: column;
     flex: 2.1;
     margin-right: 40px;
-    padding: 45px 40px;
+    padding: 45px 35px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
 
 #article_heb h2 {
-    margin-bottom: 20px;
+    margin: 0 5px 20px;
 }
 
 #folder_heb {
@@ -255,7 +257,7 @@ h3 {
 .card_heb {
     display: flex;
     flex-direction: column;
-    margin: 0 5px 25px 5px;
+    margin: 0 5px 25px;
     width: 250px;
     height: 200px;
     background-color: #ffffff;
@@ -311,7 +313,7 @@ h3 {
     display: flex;
     flex-direction: column;
     flex: 0.8;
-    padding: 45px 40px 0 40px;
+    padding: 45px 40px 0;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -320,7 +322,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    width: 345px;
     margin-bottom: 10px;
 }
 
