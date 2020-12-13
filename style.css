@@ -14,7 +14,6 @@
 main {
     max-width: 1440px;
     margin: auto;
-    padding: 0 50px;
     font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -47,7 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0px 30px 50px 0;
+    margin: 0px 50px 50px;
 }
 
 header #logo {
@@ -69,6 +68,7 @@ header a {
 
 #nav_sinscrire {
     font-weight: bold;
+    margin-right: 30px;
     color: #0065FC;
 }
 
@@ -83,152 +83,7 @@ header a {
 /* BANDEAU DE RECHERCHE */
 
 #research {
-    margin-bottom: 40px;
-}
-
-#teaser {
-    margin-bottom: 20px;
-}
-
-#city {
-    position: relative;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: flex-start;
-    max-width: 420px;
-    height: 50px;
-}
-
-#city i:nth-of-type(1) {
-    display: inline-block;
-    padding-top: 15px;
-    width: 50px;
-    text-align: center;
-    font-weight: bold;
-    background-color: #F2F2F2;
-    border-radius: 15px 0 0 15px;
-}
-
-#city input {
-    display: inline-block;
-    padding-top: 0;
-    width: 235px;
-    padding-left: 17px;
-    font-size: 1em;
-    font-weight: bold;
-    border-left: none;
-    border-right: none;
-    border-top: 2px solid #F2F2F2;
-    border-bottom: 2px solid #F2F2F2;
-}
-
-#city label {
-    display: inline-block;
-    padding: 13px 0 15px 0;
-    width: 135px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-    background-color: #0065fc;
-    border-radius: 0 15px 15px 0;
-    position: absolute;
-    left: 285px;
-    top: 0px;
-    z-index: 1;
-}
-
-#city i:nth-of-type(2) {
-    display: inline-block;
-    padding: 16px 0 17px 0;
-    width: 52px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-    background-color: #0065fc;
-    border-radius: 15px;
-    position: absolute;
-    left: 275px;
-    top: 0px;
-    z-index: -1;
-    opacity: 0;
-}
-
-#input_list {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-#filters {
-    display: flex;
-    margin-bottom: 40px;
-}
-
-h3 {
-    margin: 0 30px 0 5px;
-    padding-top: 12px;
-    font-weight: bold;
-}
-
-#filtres_1_2,
-#filtres_3_4 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.input_filter {
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    margin-right: 25px;
-}
-
-#filters i {
-    position: absolute;
-    left: 0;
-    padding-top: 15px;
-    width: 50px;
-    height: 35px;
-    text-align: center;
-    color: #0065fc;
-    background-color: #deebff;
-    border-radius: 80px;
-}
-
-#filters label {
-    margin: 0 auto 0 30px;
-    font-weight: bold;
-    border-top: 3px solid #F2F2F2;
-    border-bottom: 3px solid #F2F2F2;
-    border-right: 3px solid #F2F2F2;
-    padding: 12px 15px 12px 40px;
-    border-radius: 0 80px 80px 0;
-}
-
-#counter {
-    display: flex;
-}
-
-#counter i {
-    font-size: 0.7em;
-    margin: 0 12px 0 5px;
-    padding-top: 4px;
-    width: 20px;
-    height: 16px;
-    text-align: center;
-    color: #0065fc;
-    border: 2px solid #deebff;
-    border-radius: 80px;
-}
-
-#counter p {
-    padding-top: 2px;
-}
-
-
-/* BANDEAU DE RECHERCHE */
-
-#research {
-    margin-bottom: 40px;
+    margin: 0 50px 40px;
 }
 
 #teaser {
@@ -374,7 +229,7 @@ h3 {
 
 #section_heb {
     display: flex;
-    margin-bottom: 65px;
+    margin: 0 50px 65px;
 }
 
 #article_heb {
@@ -518,7 +373,7 @@ h3 {
 #section_activ {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin: 0 50px 60px;
 }
 
 #title_activ {
@@ -631,16 +486,19 @@ h3 {
 
 /* FOOTER*/
 
-#footer_fcx {
+footer {
     background-color: #f2f2f2;
 }
 
-#bloc_footer {
+#footer_fcx {
     max-width: 1440px;
-    display: flex;
-    padding: 45px 50px 0 50px;
-    margin: 0 auto;
+    margin: auto;
     font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bloc_footer {
+    display: flex;
+    margin: 0 50px;
 }
 
 #bloc_footer h3 {
@@ -653,6 +511,7 @@ h3 {
 
 #bloc_footer div {
     flex: 30%;
+    margin-top: 45px;
 }
 
 #bloc_footer p {
