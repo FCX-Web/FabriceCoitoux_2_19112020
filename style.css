@@ -347,6 +347,8 @@ h3 {
 .pocket_img_pop {
     margin: 4px;
     border-radius: 20px 0 0 20px;
+    width: 140px;
+    height: 137px;
     overflow: hidden;
 }
 
@@ -361,6 +363,13 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     margin: 10px;
+}
+
+#title_img_pop_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px 10px 0;
 }
 
 .describ_pop {
