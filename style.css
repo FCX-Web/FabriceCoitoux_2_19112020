@@ -659,16 +659,37 @@ footer {
     main {
         padding: 0;
     }
-    #title_pop,
-    #title_activ {
-        margin: 0 20px 25px 20px;
-    }
     #folder_pop,
     #folder_activ,
     #folder_heb {
         flex-flow: row wrap;
         justify-content: space-between;
         margin: 0 20px;
+    }
+    .card_pop,
+    #title_pop,
+    #article_heb h2,
+    .view,
+    #title_activ,
+    .card_heb,
+    .underfile_single_activ,
+    .underfile_activ,
+    .activ_11_31,
+    .activ_21,
+    .activ_22,
+    .activ_41,
+    .activ_42,
+    .activ_11_31 img,
+    .activ_21 img,
+    .activ_22 img,
+    .activ_41 img,
+    .activ_42 img {
+        width: 320px;
+    }
+    #title_activ,
+    #article_heb h2,
+    .view {
+        margin: 0 20px 25px;
     }
     /* HEADER */
     header {
@@ -717,7 +738,7 @@ footer {
     #research {
         display: flex;
         flex-direction: column;
-        margin: 0 20px 40px 20px;
+        margin: 0 20px 40px;
     }
     #teaser,
     #city {
@@ -748,17 +769,22 @@ footer {
         padding: 12px 10px 12px 27px;
     }
     /*HEBERGEMENT*/
+    #title_pop {
+        margin: 50px 20px 25px;
+    }
+    .pocket_img_pop img {
+        width: 125px;
+    }
     #section_heb {
         flex-wrap: nowrap;
     }
     #article_heb {
         margin: 0;
     }
-    #article_heb h2,
-    .view {
-        width: 335px;
-        margin: 0 20px 25px;
+    .pocket_img_heb img {
+        width: 312px;
     }
+    /*ACTIVITES*/
     #section_activ {
         margin: 0 0 50px 0;
     }
@@ -789,6 +815,11 @@ footer {
         left: 240px;
     }
     /*HEBERGEMENTS*/
+    .card_pop,
+    #title_pop,
+    #article_heb h2,
+    .view,
+    #title_activ,
     .card_heb,
     .underfile_single_activ,
     .underfile_activ,
@@ -804,28 +835,20 @@ footer {
     .activ_42 img {
         width: 310px;
     }
-    #folder_pop {
-        margin: 0;
+    #title_activ,
+    #title_pop,
+    #article_heb h2,
+    .view {
+        margin: 0 20px 25px;
     }
-    #folder_heb,
+    #folder_pop #folder_heb,
     #folder_activ,
     #bloc_footer {
-        margin: 0;
-    }
-    #title_pop {
-        width: 295px;
+        margin: 0 20px;
     }
     /*ACTIVITES*/
     .underfile_activ,
     .underfile_single_activ {
-        margin: 0 0 5px;
-    }
-    #title_pop,
-    #title_activ,
-    #article_heb h2,
-    .view {
         margin: 0 0 25px;
-        width: 320px;
-        ;
     }
 }
