@@ -514,6 +514,10 @@ footer {
     margin-top: 45px;
 }
 
+#bloc_footer div:nth-of-type(3) {
+    margin-bottom: 45px;
+}
+
 #bloc_footer p {
     margin-bottom: 20px;
 }
@@ -539,8 +543,18 @@ footer {
 /*****************************************************************/
 
 @media all and (max-width: 894px) {
+    #title_pop,
+    .card_pop,
+    .card_heb {
+        width: 335px;
+    }
+    .pocket_img_heb img {
+        width: 327px;
+    }
     /*HEBERGEMENTS*/
     #section_heb {
+        flex-direction: column-reverse;
+        margin-bottom: 60px;
         margin: 0 0 60px;
     }
     #article_pop {
@@ -549,24 +563,17 @@ footer {
         border-radius: 0;
         background-color: #f2f2f2;
     }
-    #title_pop,
     #folder_pop {
         margin: 0 50px;
     }
     #title_pop {
-        padding-top: 45px;
-        width: 335px;
+        margin: 45px 50px 0;
     }
     .card_pop {
         margin-bottom: 15px;
-        width: 335px;
     }
     .pocket_img_pop img {
         width: 125px;
-    }
-    #section_heb {
-        flex-direction: column-reverse;
-        margin-bottom: 60px;
     }
     #article_heb {
         padding: 0;
@@ -577,12 +584,8 @@ footer {
         margin: 0 0 10px;
     }
     .card_heb {
-        width: 335px;
         height: 200px;
         margin: 0 5px 15px 0;
-    }
-    .pocket_img_heb img {
-        width: 327px;
     }
     .view {
         margin: 5px 5px 5px 0;
@@ -590,7 +593,7 @@ footer {
     /*ACTIVITES*/
     .underfile_activ,
     .underfile_single_activ {
-        margin: 0 5px 5px 0;
+        margin: 10px 0;
     }
 }
 
@@ -598,6 +601,20 @@ footer {
 /********************************************************************/
 
 @media all and (max-width: 720px) {
+    .underfile_single_activ,
+    .underfile_activ,
+    .activ_11_31,
+    .activ_21,
+    .activ_22,
+    .activ_41,
+    .activ_42,
+    .activ_11_31 img,
+    .activ_21 img,
+    .activ_22 img,
+    .activ_41 img,
+    .activ_42 img {
+        width: 335px;
+    }
     /* HEADER */
     header a {
         margin-left: 40px;
@@ -608,25 +625,19 @@ footer {
     }
     #folder_activ {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
     }
     .underfile_single_activ {
-        width: 335px;
         height: 190px;
-        margin-bottom: 25px;
     }
     .underfile_activ {
-        width: 335px;
         height: 405px;
-        margin-bottom: 25px;
     }
     .activ_11_31,
     .activ_21,
     .activ_22,
     .activ_41,
     .activ_42 {
-        width: 335px;
         height: 190px;
     }
     .activ_11_31 img,
@@ -635,13 +646,11 @@ footer {
     .activ_41 img,
     .activ_42 img {
         object-fit: cover;
-        width: 335px;
         height: 135px;
     }
     /*FOOTER } */
     #bloc_footer {
         flex-direction: column;
-        margin-left: 20px;
     }
 }
 
@@ -653,16 +662,32 @@ footer {
     main {
         padding: 0;
     }
-    #title_pop,
-    #title_activ {
-        margin: 0 20px 25px 20px;
-    }
     #folder_pop,
     #folder_activ,
     #folder_heb {
         flex-flow: row wrap;
         justify-content: space-between;
         margin: 0 20px;
+    }
+    .card_pop,
+    #title_pop,
+    #article_heb h2,
+    .view,
+    #title_activ,
+    .card_heb,
+    .underfile_single_activ,
+    .underfile_activ,
+    .activ_11_31,
+    .activ_21,
+    .activ_22,
+    .activ_41,
+    .activ_42,
+    .activ_11_31 img,
+    .activ_21 img,
+    .activ_22 img,
+    .activ_41 img,
+    .activ_42 img {
+        width: 335px;
     }
     /* HEADER */
     header {
@@ -711,7 +736,7 @@ footer {
     #research {
         display: flex;
         flex-direction: column;
-        margin: 0 20px 40px 20px;
+        margin: 0 20px 40px;
     }
     #teaser,
     #city {
@@ -742,19 +767,55 @@ footer {
         padding: 12px 10px 12px 27px;
     }
     /*HEBERGEMENT*/
+    #article_pop {
+        padding-bottom: 25px;
+        margin-bottom: 40px;
+    }
+    #title_pop {
+        margin: 40px 20px 25px;
+    }
+    #title_pop h2 {
+        margin-bottom: 0;
+    }
+    #card_pop {
+        margin-bottom: 10px;
+    }
+    .pocket_img_pop img {
+        width: 125px;
+    }
     #section_heb {
         flex-wrap: nowrap;
+        margin-bottom: 55px;
     }
     #article_heb {
         margin: 0;
     }
-    #article_heb h2,
-    .view {
-        width: 335px;
-        margin: 0 20px 25px;
+    #article_heb h2 {
+        margin: 0 20px 20px;
     }
+    .card_heb {
+        margin: 0 0 10px;
+    }
+    .pocket_img_heb img {
+        width: 327px;
+    }
+    .view {
+        margin: 25px 20px 0;
+    }
+    /*ACTIVITES*/
     #section_activ {
-        margin: 0 0 50px 0;
+        margin: 0 0 25px 0;
+    }
+    #title_activ {
+        margin: 0 20px 30px;
+    }
+    .underfile_activ,
+    .underfile_single_activ {
+        margin: 0 0 25px;
+    }
+    /*FOOTER*/
+    #bloc_footer {
+        margin: 0 20px 0;
     }
 }
 
@@ -763,6 +824,9 @@ footer {
 
 @media all and (max-width: 360px) {
     /* HEADER */
+    #logo {
+        margin-left: 5px;
+    }
     #anchor_heb {
         padding: 0 20px 0 38px;
     }
@@ -770,6 +834,9 @@ footer {
         padding: 0 53px 0 30px;
     }
     /* BANDEAU DE RECHERCHE */
+    #research {
+        margin: 0 5px 40px;
+    }
     #teaser h2 {
         font-size: 1.2em;
     }
@@ -783,6 +850,11 @@ footer {
         left: 240px;
     }
     /*HEBERGEMENTS*/
+    .card_pop,
+    #title_pop,
+    #article_heb h2,
+    .view,
+    #title_activ,
     .card_heb,
     .underfile_single_activ,
     .underfile_activ,
@@ -798,28 +870,21 @@ footer {
     .activ_42 img {
         width: 310px;
     }
-    #folder_pop {
-        margin: 0;
+    #title_activ,
+    #title_pop,
+    #article_heb h2,
+    .view {
+        margin: 0 5px 25px;
     }
+    #folder_pop,
     #folder_heb,
     #folder_activ,
     #bloc_footer {
-        margin: 0;
-    }
-    #title_pop {
-        width: 295px;
+        margin: 0 5px;
     }
     /*ACTIVITES*/
     .underfile_activ,
     .underfile_single_activ {
-        margin: 0 0 5px;
-    }
-    #title_pop,
-    #title_activ,
-    #article_heb h2,
-    .view {
         margin: 0 0 25px;
-        width: 320px;
-        ;
     }
 }
