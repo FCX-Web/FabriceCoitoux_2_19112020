@@ -284,11 +284,11 @@ h3 {
 }
 
 .name_heb {
-    /* font-size: 1.1em; */
     font-weight: bold;
 }
 
 .price_heb {
+    font-size: 0.9em;
     margin: 5px 0;
 }
 
@@ -730,12 +730,12 @@ footer {
     #anchor_heb {
         padding: 0 38px;
         margin: 0;
-        border-bottom: 3px solid #ffffff;
+        border-bottom: 3px solid #f2f2f2;
     }
     #anchor_activ {
         padding: 0 63px;
         margin: 0;
-        border-bottom: 3px solid #ffffff;
+        border-bottom: 3px solid #f2f2f2;
     }
     #nav_sinscrire {
         order: 2;
@@ -755,7 +755,9 @@ footer {
         flex-direction: column;
         margin: 0 20px 40px;
     }
-    #teaser,
+    #teaser {
+        margin: 0 2px 35px 0;
+    }
     #city {
         margin-bottom: 35px;
     }
@@ -768,6 +770,15 @@ footer {
         width: 50px;
         z-index: 2;
         opacity: 1;
+    }
+    #city input {
+        width: 245px;
+    }
+    #city label {
+        left: 274px;
+    }
+    #city i:nth-of-type(2) {
+        left: 284px;
     }
     #filters {
         flex-direction: column;
